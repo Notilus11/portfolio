@@ -11,7 +11,7 @@
     </div>
     <footer class="footer">
         <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
-            yann.malaret@outlook.fr
+            Notilus
         </a>
     </footer>
 </template>

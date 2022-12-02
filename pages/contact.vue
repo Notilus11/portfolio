@@ -11,20 +11,28 @@
                     width="120">
             </div>
         </a>
+        <p class="euh">
+            mail : yann.malaret@outlook.fr
+        </p>
         <a href="https://github.com/Notilus11?tab=repositories" target="_blank">
             <div class="reseau">
                     <img class="img" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"
                     width="120">
             </div>
         </a>
-        <div class="reseau">
+        <p class="euh">
+            discord : Yann Malaret#3466
+        </p>
+        <a href="https://twitter.com/yannmalaret?s=21&t=oD_KjenKxzTFhBGoABrRFA" target="_blank">
+            <div class="reseau">
                 <img class="img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"
                 width="120">
-        </div>
+            </div>
+        </a>
     </div>
     <footer class="footer">
         <a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">
-            yann.malaret@outlook.fr
+            Notilus
         </a>
     </footer>
 </template>
@@ -42,6 +50,17 @@ div.menu:hover{
     background-color: rgb(43, 49, 49);
     box-shadow: 0px 0px 5px rgb(0, 255, 225);
 }
+.euh{
+    border: 1px solid rgb(255, 150, 0);
+    box-shadow: 10px 7px 10px rgb(0, 0, 0);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(63, 61, 61);
+    width: 30vw;
+    height: 10vh;
+}
 .reseau {
     border: 1px solid rgb(255, 150, 0);
     box-shadow: 10px 7px 10px rgb(0, 0, 0);
@@ -50,8 +69,8 @@ div.menu:hover{
     align-items: center;
     justify-content: space-evenly;
     background-color: rgb(63, 61, 61);
-    width: 200px;
-    height: 200px;
+    width: 20vw;
+    height: 20vh;
 }
 .mainBox {
     display: flex;
