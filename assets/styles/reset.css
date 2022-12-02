@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+  scroll-behavior: smooth;
+}
+
 blockquote,
 dl,
 dd,
